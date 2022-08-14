@@ -27,6 +27,7 @@ const Navbar = () => {
               text-[16px]
               ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10' }
               text-white
+              hover:opacity-80
             `}
           >
             <a href={`#${nav.id}`}>
