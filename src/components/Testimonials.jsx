@@ -8,8 +8,8 @@ const Testimonials = () => (
     id='clients'
     className={`flex-col relative ${styles.flexCenter} ${styles.paddingY}`}
   >
-    {/* Gradient Div */}
-    <div />
+    {/* gradient on right side */}
+    <div className='absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient' />
 
     {/* contains title and context */}
     <div className='w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
@@ -19,7 +19,7 @@ const Testimonials = () => (
       <div className='w-full md:mt-0 mt-6'>
         <p className={`text-left max-w-[450px] ${styles.paragraph}`}>
           Everything you need to accept card payments and grow your business anywhere on the planet.
-        </p>
+        </p> 
       </div>
     </div>
 
