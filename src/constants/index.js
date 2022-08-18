@@ -49,7 +49,7 @@ export const feedback = [
     content:
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
     name: "Kristen Muranaka",
-    title: "Head Start Program Leader",
+    title: "Young Economics Program Director",
     img: people01,
   },
   {
@@ -64,18 +64,18 @@ export const feedback = [
     id: "feedback-3",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
+    name: "Kenjamin Gallagher",
     title: "Talent Acquisition",
     img: people03,
   },
-  {
-    id: "feedback-4",
-    content:
-      "I like money so very much. Money money money. Money pleaseeee",
-    name: "Tami Shineider",
-    title: "Media PA",
-    img: people01,
-  },
+  // {
+  //   id: "feedback-4",
+  //   content:
+  //     "I like money so very much. Money money money. Money pleaseeee",
+  //   name: "Tami Shineider",
+  //   title: "Media PA",
+  //   img: people01,
+  // },
 ];
 
 export const stats = [
