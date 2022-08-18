@@ -36,7 +36,7 @@ const Business = () => {
           With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.
         </p>
 
-        <Button styles='mt-10' />
+        <Button styles='mt-10 hover:opacity-80' />
       </div>
 
       <div className={`${layout.sectionImg} flex-col`}>

@@ -33,7 +33,7 @@ const Hero = () => (
         </h1>
 
         {/* Get Started Button */}
-        <div className='ss:flex hidden md:mr-4 mr-0 hover:opacity-80'>
+        <div className='ss:flex hidden md:mr-4 mr-0 hover:animate-pulse'>
           <GetStarted />
         </div>
       </div>
@@ -61,7 +61,7 @@ const Hero = () => (
     </div>
 
     {/* Get Started for Mobile Devices (goes below robot hand) */}
-    <div className={`ss:hidden ${styles.flexCenter}`}>
+    <div className={`ss:hidden ${styles.flexCenter} hover:animate-pulse`}>
       <GetStarted />
     </div>
 

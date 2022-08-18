@@ -13,7 +13,7 @@ const CardDeal = () => (
         Financial freedom is a right for everyone. But how do you find the right card? Who knows! We can try help you though.
       </p>
 
-      <Button styles='mt-10'/>
+      <Button styles='mt-10 hover:opacity-80'/>
     </div>
 
     <div className={layout.sectionImg}>
