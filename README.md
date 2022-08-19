@@ -1,3 +1,3 @@
 # Bank Landing Page
 
-[Imgur](https://imgur.com/IxPiWvs)
+<img src='https://imgur.com/IxPiWvs' />
