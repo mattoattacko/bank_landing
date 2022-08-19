@@ -1,4 +1,5 @@
 import React from 'react'
+// import { Link } from 'react-router-dom'
 import styles from '../style'
 
 import {discount, robot } from '../assets'
@@ -33,9 +34,11 @@ const Hero = () => (
         </h1>
 
         {/* Get Started Button */}
+        <a href='https://www.linkedin.com/in/matthew-mcquain/' target='_blank'>
         <div className='ss:flex hidden md:mr-4 mr-0 hover:animate-pulse'>
           <GetStarted />
         </div>
+        </a>
       </div>
 
       <h1 className='text-white font-poppins font-semibold ss:text-[68px] text-[52px] ss:leading-[100px] leading-[75px] w-full'>

@@ -49,7 +49,7 @@ export const feedback = [
     content:
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
     name: "Kristen Muranaka",
-    title: "Young Economics Program Director",
+    title: "Program Director",
     img: people01,
   },
   {

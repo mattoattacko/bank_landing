@@ -13,7 +13,9 @@ const CardDeal = () => (
         Financial freedom is a right for everyone. But how do you find the right card? Who knows! We can try help you though.
       </p>
 
-      <Button styles='mt-10 hover:opacity-80'/>
+      <a href='https://www.linkedin.com/in/matthew-mcquain/' target='_blank'>
+      <Button styles='mt-10 hover:opacity-60'/>
+      </a>
     </div>
 
     <div className={layout.sectionImg}>
