@@ -19,6 +19,13 @@ export const navLinks = [
   },
 ];
 
+export const homeNav = [
+  {
+    id: "home",
+    title: "Home",
+  }
+]
+
 export const features = [
   {
     id: "feature-1",
