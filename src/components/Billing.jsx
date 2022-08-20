@@ -26,16 +26,20 @@ const Billing = () => (
         </p>
 
         <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
+          <a href='https://www.apple.com/app-store/' target='_blank'>
           <img 
             src={apple}
             alt='apple store'
             className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer hover:animate-pulse'
-          />   
+          />
+          </a>
+          <a href='https://play.google.com/store/games' target='_blank'>
           <img 
             src={google}
             alt='google store'
             className='w-[128px] h-[42px] object-contain cursor-pointer hover:animate-pulse'
           />
+          </a>
         </div>
       </div>
     </section>

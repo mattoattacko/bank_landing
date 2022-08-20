@@ -44,7 +44,7 @@ const Footer = () => (
                   key={link.name}
                   className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== footerLink.links.length - 1 ? 'mb-4' : 'mb-0'}  `}
                   // 'index !==' stuff above is to add a property to the last link in the list. if you don't do this, the last link will have a bottom margin of 0, and we don't want that.
-                >
+                >                  
                   {link.name}
                 </li>
               ))}
@@ -63,12 +63,14 @@ const Footer = () => (
       {/* icons */}
       <div className='flex flex-row md:mt-0 mt-6 '>
         {socialMedia.map((social, index) => (
+          <a href={`${social.link}`} target="_blank">
           <img 
             key={social.id}
             src={social.icon}
             alt={social.id}
             className={`w-[21px] h-[21px] object-contain cursor-pointer hover:opacity-60 ${index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'}`}
           />
+          </a>
         ))}
       </div>
     </div>

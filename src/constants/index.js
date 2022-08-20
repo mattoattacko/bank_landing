@@ -109,23 +109,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        url: 'https://www.linkedin.com/in/matthew-mcquain/',
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        url: 'https://www.linkedin.com/in/matthew-mcquain/',
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        url: 'https://www.linkedin.com/in/matthew-mcquain/',
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        url: "https://www.linkedin.com/in/matthew-mcquain/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        url: 'https://www.linkedin.com/in/matthew-mcquain/',
       },
     ],
   },
@@ -134,23 +134,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: 'https://www.linkedin.com/in/matthew-mcquain/',
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: 'https://www.linkedin.com/in/matthew-mcquain/',
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: 'https://www.linkedin.com/in/matthew-mcquain/',
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: 'https://www.linkedin.com/in/matthew-mcquain/',
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: 'https://www.linkedin.com/in/matthew-mcquain/',
       },
     ],
   },
@@ -159,11 +159,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: 'https://www.linkedin.com/in/matthew-mcquain/',
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: 'https://www.linkedin.com/in/matthew-mcquain/',
       },
     ],
   },
@@ -173,22 +173,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: 'https://www.linkedin.com/in/matthew-mcquain/',
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: 'https://www.linkedin.com/in/matthew-mcquain/',
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: 'https://www.linkedin.com/in/matthew-mcquain/',
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: 'https://www.linkedin.com/in/matthew-mcquain/',
   },
 ];
 
