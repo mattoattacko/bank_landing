@@ -23,6 +23,8 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import github1 from "./github1.svg";
+import upwork from "./upwork.svg";
 
 export {
   airbnb,
@@ -47,6 +49,8 @@ export {
   instagram,
   linkedin,
   twitter,
+  github1,
+  upwork,
   people01,
   people02,
   people03,

@@ -11,15 +11,14 @@ const Footer = () => (
       <div className='flex-1 flex flex-col justify-start mr-10'>
         {homeNav.map((nav, index) => (
           <a href={`#${nav.id}`}>
-              {nav.title}
-          <img 
-          src={logo} 
-          alt='hoobank'
-          key={nav.id} 
-          className='w-[266px] h-[72px] object-contain' 
-          />
-          </a>
-          
+            {nav.title}
+              <img 
+                src={logo} 
+                alt='hoobank'
+                key={nav.id} 
+                className='w-[266px] h-[72px] object-contain' 
+              />
+          </a>          
         ))}
        
       
@@ -57,11 +56,11 @@ const Footer = () => (
     {/* social media container */}
     <div className='flex w-full justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45]'>
       <p className='font-poppins font-normal text-center text-[18px] leading-[27px] text-white '>
-      Copyright © 2022 Hoobank. All Rights Reserved.
+      Copyright © 2022 HooBank. All Rights Reserved.
       </p>
 
       {/* icons */}
-      <div className='flex flex-row md:mt-0 mt-6 '>
+      <div className='flex flex-row md:mt-0 mt-6'>
         {socialMedia.map((social, index) => (
           <a href={`${social.link}`} target="_blank">
           <img 

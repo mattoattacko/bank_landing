@@ -1,4 +1,5 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, github1, upwork, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+
 
 export const navLinks = [
   {
@@ -172,19 +173,19 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
-    link: 'https://www.linkedin.com/in/matthew-mcquain/',
+    icon: upwork,
+    link: 'https://www.upwork.com/freelancers/~01f6206ecf6bf14e26',
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: 'https://www.linkedin.com/in/matthew-mcquain/',
+    icon: github1,
+    link: 'https://github.com/mattoattacko',
   },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: 'https://www.linkedin.com/in/matthew-mcquain/',
-  },
+  // {
+  //   id: "social-media-3",
+  //   icon: twitter,
+  //   link: 'https://www.linkedin.com/in/matthew-mcquain/',
+  // },
   {
     id: "social-media-4",
     icon: linkedin,
